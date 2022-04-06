@@ -46,7 +46,7 @@ button:hover{
     transition: 0.5s;  
 }
 ul img:hover{
-    border: 2px solid white;
+    outline: 1px solid white;
 }
 .borda{
     height: 160px;
@@ -54,10 +54,14 @@ ul img:hover{
     border-radius: 8px;
     margin: 0 auto;
 }
+.borda:hover{
+    outline: 1px solid white;
+}
 ul li .zoom:hover{
     transform: scale(1.3);
     transition: 1.5s;
 }
 .addperfil:hover{
     filter: brightness(2);
+    outline: 1px solid white;
 }
